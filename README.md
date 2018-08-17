@@ -1,8 +1,8 @@
 # TrustedOracle
 
-## price feed for Swingby v1.0
+## ETH/BTC Price feed for Swingby v1.0
 
-## APi
+## API
 
 Providing a price oracle data to the contract. ( submitter is deployer)
 ```
