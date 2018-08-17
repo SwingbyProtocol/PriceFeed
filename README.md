@@ -2,13 +2,18 @@
 
 ## ETH/BTC Price feed for Swingby v1.0
 
+## Getting start
+```
+truffle migrate
+```
+
 ## API
 
 Providing a price oracle data to the contract. ( submitter is deployer)
 ```
 function add(uint _nowPrice) // onlySubmitter
 ```
-Getting a price;
+Getting a price.
 ```
 function getPrice() returns (uint) // get price 
 ```
