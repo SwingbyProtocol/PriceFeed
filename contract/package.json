@@ -8,7 +8,8 @@
   },
   "dependencies": {
     "bip39": "^2.5.0",
-    "ethereumjs-wallet": "^0.6.2"
+    "ethereumjs-wallet": "^0.6.2",
+    "truffle-hdwallet-provider": "0.0.6"
   },
   "devDependencies": {},
   "scripts": {

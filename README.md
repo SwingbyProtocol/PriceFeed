@@ -2,6 +2,10 @@
 
 ## ETH/BTC Price feed for Swingby v1.0
 
+deployed on ropsten
+0x3c1b5359b2aef496a6aae049ab27ee2f03e79e37
+https://ropsten.etherscan.io/address/0x3c1b5359b2aef496a6aae049ab27ee2f03e79e37
+
 ## Getting start
 ```
 truffle migrate
