@@ -1,5 +1,7 @@
 pragma solidity 0.4.24;
 
+import "./TrustedOracleInterface.sol";
+
 contract TrustedOracle {
 
     address public submitter;
@@ -20,11 +22,16 @@ contract TrustedOracle {
         require(submitter == msg.sender);
 
         nowPrice = _nowPrice;
-        
+
         emit PriceUpdated(nowPrice);
     }
 
     function getPrice() public view returns (uint) {
         return nowPrice;
+    }
+
+    function getPriceProxy(address _who) public view returns (uint) {
+        TrustedOracleInterface who = TrustedOracleInterface(_who);
+        return who.getPrice();
     }
 }
