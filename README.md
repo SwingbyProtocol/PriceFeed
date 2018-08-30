@@ -21,7 +21,7 @@ Getting a price.
 ```
 function getPrice() returns (uint) // get price 
 ```
-Using Proxy for other oracle contract.
+Using Proxy for getting from another Oracle contract.
 ```
 function getPriceProxy(address _who) public view returns (uint)
 ```
