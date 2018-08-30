@@ -1,6 +1,6 @@
 # TrustedOracle
 
-## ETH/BTC Price feed for Swingby v1.0
+## ETH/BTC Price feed for Swingby
 
 Deployed on ropsten.
 0xa2bd28f23a78db41e49db7d7b64b6411123a8b85
