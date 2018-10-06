@@ -10,6 +10,7 @@ https://ropsten.etherscan.io/address/0xa2bd28f23a78db41e49db7d7b64b6411123a8b85
 ```
 $ npm install 
 ```
+```
 $ truffle migrate
 ```
 
