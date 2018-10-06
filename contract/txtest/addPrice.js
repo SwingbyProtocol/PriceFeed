@@ -20,7 +20,7 @@ module.exports = async function (deployer, net, accounts) {
 
     let oracle = await TrustedOracle.deployed()
 
-    const add = await oracle.add(62627279102384291, {
+    const add = await oracle.add(34197279102384291, {
         value: 0,
         from: address
     })
