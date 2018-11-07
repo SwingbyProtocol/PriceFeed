@@ -14,7 +14,7 @@
   "devDependencies": {},
   "scripts": {
     "compile": "truffle compile",
-    "migrate": "truffle migrate --reset --network development",
+    "migrate": "truffle migrate --reset --network testnet",
     "test": "truffle test",
     "txtest": "ACCOUNT=0 SEED_PHRASE='sand jump crazy forget spy ripple into clown pelican fine ride power' truffle exec ./txtest/getAndAddPrice.js"
   },

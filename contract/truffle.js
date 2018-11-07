@@ -16,7 +16,7 @@ module.exports = {
     }
   },
   networks: {
-    development: {
+    testnet: {
       host: 'localhost',
       port: 9545,
       network_id: 343,
