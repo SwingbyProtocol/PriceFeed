@@ -1,5 +1,7 @@
 # TrustedOracle
 
+update: we don't usd price feed oracles.
+
 ## ETH/BTC Price feed for Swingby
 
 Deployed on ropsten.
